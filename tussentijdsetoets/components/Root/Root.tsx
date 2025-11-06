@@ -1,10 +1,12 @@
 import {Outlet, Link} from "react-router-dom";
 import styles from "./Root.module.css"
 
+
 const Root = () => {
     return(
         <>
             <header>
+                <h1>hi</h1>
                 <nav>
                     <ul>
                 <li><Link to="/detail/1">Oefening 1 </Link></li>
